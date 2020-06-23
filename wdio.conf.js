@@ -1,18 +1,6 @@
 const path = require('path')
 
 exports.config = {
-    //
-    // ====================
-    // Runner Configuration
-    // ====================
-    //
-    // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or
-    // on a remote machine).
-    runner: 'local',
-    //
-    // My applitools key
-    applitoolsKey: process.env.APPLITOOLS_KEY,
-    //
     // ==================
     // Specify Test Files
     // ==================
@@ -66,7 +54,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://jasper-bison.glitch.me',
+    baseUrl: 'https://magnificent-cabbage.glitch.me/',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
